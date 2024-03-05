@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
   <link rel="stylesheet" href="styles.css" />
   <script src="https://kit.fontawesome.com/9ab9a5982f.js" crossorigin="anonymous"></script>
+  <script defer src="app.js"></script>
 </head>
 
 <body>
@@ -39,10 +40,10 @@
   <div id="about">
     <div class="container">
       <div class="row">
-        <div class="about-col-1">
+        <div class="about-col-1 hidden">
           <img src="images/user.png" alt="" />
         </div>
-        <div class="about-col-2">
+        <div class="about-col-2 hidden">
           <h1 class="sub-title">About Me</h1>
           <p>
             With 4.5 years of overall experience & 3.5 years of frontend
@@ -118,19 +119,19 @@
     <div class="container">
       <h1 class="sub-title">My Services</h1>
       <div class="services-list">
-        <div>
+        <div class="servicelist hidden">
           <i class="fa-solid fa-code"></i>
           <h2>Web Development</h2>
           <p>Can Develop front-end applications in Angular</p>
           <a href="#">Learn more</a>
         </div>
-        <div>
+        <div class="servicelist hidden">
           <i class="fa-solid fa-gears"></i>
           <h2>API Integration</h2>
           <p>Can Integrate REST apis into front-end application</p>
           <a href="#">Learn more</a>
         </div>
-        <div>
+        <div class="servicelist hidden">
           <i class="fa-regular fa-calendar-check"></i>
           <h2>Maintenance & Deployment</h2>
           <p>Can maintain code in Git and Deploy using Jenkins and RLM</p>
@@ -145,7 +146,7 @@
     <div class="container">
       <h1 class="sub-title">My Work</h1>
       <div class="work-list">
-        <div class="work">
+        <div class="work hidden">
           <img src="images/work-1.png" alt="worklogo1" />
           <div class="layer">
             <h3>Social Media App</h3>
@@ -156,7 +157,7 @@
             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
         </div>
-        <div class="work">
+        <div class="work hidden">
           <img src="images/work-2.png" alt="worklogo2" />
           <div class="layer">
             <h3>Music App</h3>
@@ -167,7 +168,7 @@
             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
           </div>
         </div>
-        <div class="work">
+        <div class="work hidden">
           <img src="images/work-3.png" alt="worklogo3" />
           <div class="layer">
             <h3>Online Shopping App</h3>

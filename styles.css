@@ -459,3 +459,28 @@ nav .fa-solid {
   margin-top: -40px;
   display: block;
 }
+
+/* Scroll animations */
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+.about-col-1.hidden {
+  transition-delay: 200ms;
+}
+.about-col-2.hidden {
+  transition-delay: 400ms;
+}
+.servicelist:nth-child(2), .work:nth-child(2) {
+  transition-delay: 100ms;
+}
+.servicelist:nth-child(3), .work:nth-child(3) {
+  transition-delay: 200ms;
+}
